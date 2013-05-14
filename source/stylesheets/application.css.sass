@@ -1,0 +1,47 @@
+@import "colors"
+@import "sizes"
+
+@import "compass"
+@import "bootstrap"
+@import "bootstrap-responsive"
+@import "bourbon"
+
+body
+  text-align: center
+  background-color: $red
+  padding: 20px 0 0
+
+$social_icon_unit: 50px
+
+ul.inline.social
+  margin: 10px
+  margin-right: $social_icon_unit * 2
+
+  > li
+    width: $social_icon_unit
+    height: $social_icon_unit
+    padding: 10px
+    margin: 10px
+
+ul.inline.photos
+  width: 99%
+
+  > li
+    padding: 20px
+
+img
+  @include border-radius(50%)
+  max-width: 250px
+  max-height: 250px
+  width: auto
+
+.social_icon
+  @include border-radius(50%)
+  background-color: $red
+  width: $social_icon_unit
+  height: $social_icon_unit
+  text-align: center
+  color: $white
+  padding: 10px
+  position: absolute
+  font-size: $social_icon_unit - 10
