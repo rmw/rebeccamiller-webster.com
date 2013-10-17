@@ -1,4 +1,3 @@
-# Write.Speak.Code Conference Website
 
 Currently using [middleman](http://middlemanapp.com/getting-started/)
 
